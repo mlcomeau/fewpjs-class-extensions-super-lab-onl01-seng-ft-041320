@@ -9,4 +9,9 @@ class Tree {
   }
 }
 
-class
+class Deciduous extends Tree {
+  constuctor(name, species) {
+    super(species);
+    this.name = name;
+  }
+}
